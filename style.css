@@ -72,8 +72,10 @@ button:hover {
 }
 
 .task-date {
-    padding: 10px
+    padding: 10px;
+
 }
+
 
 .task-item .task-title {
     flex: 1;
@@ -100,4 +102,9 @@ button:hover {
 .task-item .delete:hover {
     background-color: #c0392b;
     /* Rojo más oscuro al pasar el ratón */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #7f8c8d;
 }
