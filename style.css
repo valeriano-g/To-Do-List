@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #2ecc71;
+    /* Verde */
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #2ecc71;
+    /* Verde */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+    /* Verde más oscuro al pasar el ratón */
+}
+
+/* ... (código anterior) ... */
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* Cambiado a columna para que las tareas se alineen verticalmente */
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.task-item:hover {
+    background-color: #f9f9f9;
+}
+
+.task-date {
+    padding: 10px
+}
+
+.task-item .task-title {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.task-item .task-date {
+    font-size: 12px;
+    color: #7f8c8d;
+    /* Gris */
+}
+
+.task-item .delete {
+    background-color: #e74c3c;
+    /* Rojo */
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.task-item .delete:hover {
+    background-color: #c0392b;
+    /* Rojo más oscuro al pasar el ratón */
+}
